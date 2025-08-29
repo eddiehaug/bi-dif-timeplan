@@ -1,0 +1,5 @@
+{
+  "name": "BI Course Schedule Viewer",
+  "description": "An interactive web application to display the schedule for the 'Digitalisering, Innovasjon og Forretningsmodeller' program at BI Norwegian Business School. Users can switch between days, view detailed information for each session, and see presenter details.",
+  "requestFramePermissions": []
+}
