@@ -1,22 +1,23 @@
+
 import React from 'react';
 import { GoogleAiStudioLogo } from './icons';
 
 export const Header = () => {
     return (
-        <header className="bg-white shadow-sm">
+        <header className="bg-white">
             <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-                <div className="flex items-center text-xs text-slate-500 mb-6">
+                <div className="flex items-center text-xs text-slate-500 pb-6 border-b border-slate-200">
                     <GoogleAiStudioLogo />
-                    <span className="ml-2">Made with love with Google AI Studio: <a href="https://ai.dev" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">ai.dev</a></span>
+                    <span className="ml-2">| Vibe coded with love using Google AI Studio: <a href="https://ai.dev" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">ai.dev</a></span>
                 </div>
 
-                <div className="text-center">
-                    <h1 className="text-2xl sm:text-3xl font-bold text-slate-800 max-w-4xl mx-auto leading-tight">
-                        Plan og læringsdesign for gjennomføring av Samling 1 på master of management-programmet
-                    </h1>
-                    <h2 className="mt-2 text-3xl sm:text-4xl font-extrabold text-blue-700 tracking-tight">
+                <div className="text-center mt-6">
+                    <h1 className="font-monda text-3xl sm:text-4xl text-blue-700 tracking-tight">
                         Digitalisering, Innovasjon og Forretningsmodeller
-                    </h2>
+                    </h1>
+                    <p className="font-quicksand mt-4 text-lg sm:text-xl text-slate-800 max-w-4xl mx-auto leading-tight">
+                        Plan og læringsdesign for gjennomføring av Samling 1 på master of management-programmet
+                    </p>
                     <div className="mt-4 text-sm text-slate-500 max-w-lg mx-auto">
                         <p>Handelshøyskolen BI, Nydalen</p>
                         <p>Peder Inge Furseth, programansvarlig & professor i innovasjon.</p>
@@ -24,12 +25,10 @@ export const Header = () => {
                     </div>
                     <div className="mt-8">
                         <img 
-                            src="lightbulb.jpeg" 
-"
+                            src="https://i.imgur.com/7GrxGYO.jpeg"
                             alt="Innovation lightbulb"
                             className="w-48 h-auto mx-auto"
                         />
-                        <p className="mt-4 text-2xl font-bold tracking-widest text-blue-800">INNOVATION</p>
                     </div>
                 </div>
             </div>

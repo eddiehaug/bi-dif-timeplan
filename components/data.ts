@@ -201,11 +201,11 @@ export const activities: Activity[] = [
 
 
 export const professors: Professor[] = [
-  { name: 'Peder Inge Furseth', email: 'Peder.i.furseth@bi.no', role: 'Foreleser, veileder, programansvarlig', position: 'Professor', sessions: '1, 2, 3, 4, 5', imageUrl: 'https://picsum.photos/seed/peder/80/80', linkedinUrl: 'https://www.linkedin.com/in/peder-inge-furseth-prof-0b9660/' },
-  { name: 'Benedicte Brøgger', email: 'Benedicte.brogger@bi.no', role: 'Foreleser, veileder', position: 'Professor', sessions: '2, 3', imageUrl: 'https://picsum.photos/seed/benedicte/80/80', linkedinUrl: 'https://www.linkedin.com/in/benedicte-br%C3%B8gger-30613b15/' },
-  { name: 'Heidi Wiig', email: 'Heidi.wiig@bi.no', role: 'Foreleser, veileder', position: 'Professor', sessions: '3', imageUrl: 'https://picsum.photos/seed/heidi/80/80', linkedinUrl: 'https://www.linkedin.com/in/heidi-wiig-b73a711/' },
-  { name: 'Eliane Bücher', email: 'Eliane.bucher@bi.no', role: 'Foreleser, veileder', position: 'Professor', sessions: '', imageUrl: 'https://picsum.photos/seed/eliane/80/80', linkedinUrl: 'https://www.linkedin.com/in/eliane-bucher-96389793/' },
-  { name: 'Roald Nomme', email: 'Roald.nomme@bi.no', role: 'Foreleser, veileder', position: 'Høyskolelektor', sessions: '2, 3, 5', imageUrl: 'https://picsum.photos/seed/roald/80/80', linkedinUrl: 'https://www.linkedin.com/in/roald-nomme-a38616/' },
-  { name: 'Kristian Alm', email: 'Kristian.alm@bi.no', role: 'Foreleser, veileder', position: 'Førsteamanuensis', sessions: '2, 3', imageUrl: 'https://picsum.photos/seed/kristian/80/80', linkedinUrl: 'https://www.linkedin.com/in/kristian-alm-a3042347/' },
-  { name: 'Terje Colbjørnsen', email: 'Terje.colbjornsen@bi.no', role: 'Foreleser, veileder', position: 'Førsteamanuensis', sessions: '2, 3', imageUrl: 'https://picsum.photos/seed/terje/80/80', linkedinUrl: 'https://www.linkedin.com/in/terje-colbj%C3%B8rnsen-a7a47116/' },
+  { name: 'Peder Inge Furseth', email: 'Peder.i.furseth@bi.no', role: 'Foreleser, veileder, programansvarlig', position: 'Professor', sessions: '1, 2, 3, 4, 5', imageUrl: 'https://i.imgur.com/VCdtWzQ.jpeg', linkedinUrl: 'https://www.linkedin.com/in/peder-inge-furseth-prof-0b9660/' },
+  { name: 'Benedicte Brøgger', email: 'Benedicte.brogger@bi.no', role: 'Foreleser, veileder', position: 'Professor', sessions: '2, 3', imageUrl: 'https://i.imgur.com/VSmzvbs.jpeg', linkedinUrl: 'https://www.linkedin.com/in/benedicte-br%C3%B8gger-30613b15/' },
+  { name: 'Heidi Wiig', email: 'Heidi.wiig@bi.no', role: 'Foreleser, veileder', position: 'Professor', sessions: '3', imageUrl: 'https://i.imgur.com/ubTk071.jpeg', linkedinUrl: 'https://www.linkedin.com/in/heidi-wiig-b73a711/' },
+  { name: 'Eliane Bücher', email: 'Eliane.bucher@bi.no', role: 'Foreleser, veileder', position: 'Professor', sessions: '', imageUrl: 'https://i.imgur.com/fj0ITxG.jpeg', linkedinUrl: 'https://www.linkedin.com/in/eliane-bucher-96389793/' },
+  { name: 'Roald Nomme', email: 'Roald.nomme@bi.no', role: 'Foreleser, veileder', position: 'Høyskolelektor', sessions: '2, 3, 5', imageUrl: 'https://i.imgur.com/Z5juBb2.jpeg', linkedinUrl: 'https://www.linkedin.com/in/roald-nomme-a38616/' },
+  { name: 'Kristian Alm', email: 'Kristian.alm@bi.no', role: 'Foreleser, veileder', position: 'Førsteamanuensis', sessions: '2, 3', imageUrl: 'https://i.imgur.com/6tCBjR1.jpeg', linkedinUrl: 'https://www.linkedin.com/in/kristian-alm-a3042347/' },
+  { name: 'Terje Colbjørnsen', email: 'Terje.colbjornsen@bi.no', role: 'Foreleser, veileder', position: 'Førsteamanuensis', sessions: '2, 3', imageUrl: 'https://i.imgur.com/zdx8BtY.jpeg', linkedinUrl: 'https://www.linkedin.com/in/terje-colbj%C3%B8rnsen-a7a47116/' },
 ];
