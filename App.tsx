@@ -6,11 +6,12 @@ import { Overview } from './components/Overview';
 import { DetailsModal } from './components/DetailsModal';
 import { ProfessorsModal } from './components/ProfessorsModal';
 import { LinkModal } from './components/LinkModal';
+import { NotebookLMView } from './components/NotebookLMView';
 import type { Activity, Professor } from './types';
 import { activities, professors } from './components/data';
 
 function App() {
-  const [activeView, setActiveView] = useState<'overview' | 'schedule'>('overview');
+  const [activeView, setActiveView] = useState<'overview' | 'schedule' | 'notebookLM'>('overview');
   const [selectedActivity, setSelectedActivity] = useState<Activity | null>(null);
   const [isProfessorsModalOpen, setIsProfessorsModalOpen] = useState(false);
   const [linkModalUrl, setLinkModalUrl] = useState<string | null>(null);
@@ -68,6 +69,17 @@ function App() {
                 >
                     Timeplan
                 </button>
+                <button
+                    type="button"
+                    onClick={() => setActiveView('notebookLM')}
+                    className={`px-4 py-2 text-sm font-medium ml-1 flex items-center ${
+                        activeView === 'notebookLM' ? 'bg-blue-600 text-white shadow' : 'text-slate-700 hover:bg-slate-100'
+                    } rounded-md transition-all duration-200`}
+                    aria-pressed={activeView === 'notebookLM'}
+                >
+                    <img src="https://play-lh.googleusercontent.com/qWDLmYCI4Lqzq8J-LhtvWvp1HIPkJb2lqkHjduXM7tnCo7N1tmKxnYdaX7CS2_5pkDuW=w480-h960-rw" alt="NotebookLM Logo" className="w-5 h-5 mr-2" />
+                    <span>NotebookLM Video and Podcasts (Deep Dive)</span>
+                </button>
             </div>
         </div>
 
@@ -79,6 +91,7 @@ function App() {
               onViewTeam={handleOpenProfessorsModal}
             />
         )}
+        {activeView === 'notebookLM' && <NotebookLMView />}
       </main>
       
       {selectedActivity && (

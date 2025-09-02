@@ -18,7 +18,7 @@ export const Header = () => {
                     <p className="font-quicksand mt-4 text-lg sm:text-xl text-slate-800 max-w-4xl mx-auto leading-tight">
                         Plan og læringsdesign for gjennomføring av Samling 1 på master of management-programmet
                     </p>
-                    <div className="mt-4 text-sm text-slate-500 max-w-lg mx-auto">
+                    <div className="font-quicksand mt-4 text-xs sm:text-sm text-slate-400 max-w-4xl mx-auto leading-tight">
                         <p>Handelshøyskolen BI, Nydalen</p>
                         <p>Peder Inge Furseth, programansvarlig & professor i innovasjon.</p>
                         <p>Program oppdatert 29. august 2025. Det tas forbehold om endringer.</p>

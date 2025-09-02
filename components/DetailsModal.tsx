@@ -21,6 +21,20 @@ export const DetailsModal: React.FC<DetailsModalProps> = ({ activity, onClose, o
   if (!activity.details) return null;
 
   const renderLink = (link: Link) => {
+    if (link.type === 'profile' || link.type === 'web') {
+      return (
+        <a
+          key={link.url}
+          href={link.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-2 inline-flex items-center text-blue-600 hover:text-blue-800 font-medium transition"
+        >
+          <LinkIcon /> {link.text}
+        </a>
+      );
+    }
+    
     const isVideo = link.type === 'video';
     const Icon = isVideo ? VideoIcon : LinkIcon;
     const url = isVideo && !link.url.includes('embed') 
